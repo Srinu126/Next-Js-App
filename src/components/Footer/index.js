@@ -57,6 +57,9 @@ const Footer = () => {
       <div className="w-full mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex flex-row items-center justify-between">
         <span className="text-center">&copy;2023 SrinuRachakonda. All rights reserved.</span>
         <Link className="text-center underline" href="/sitemap.xml">sitemap.xml</Link>
+        <div className="text-center">
+            Made with <a href="https://nextjs.org/docs" className="underline">Next JS</a>
+        </div>
       </div>
     </footer>
   );

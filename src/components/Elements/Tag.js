@@ -2,7 +2,8 @@ import { cx } from "@/src/utils";
 import Link from "next/link";
 import React from "react";
 
-const Tag = ({ link = "#", name, ...props }) => {
+const Tag = ({ link = "#",name,...props }) => {
+  console.log("logging link, name",link,name);
   return (
     <Link
       href={link}
