@@ -7,7 +7,7 @@ import { slug } from "github-slugger";
 
 const HomeCoverSection = ({ blogs }) => {
   const sortedBlogs = sortBlogs(blogs);
-  const blog = sortedBlogs[1];
+  const blog = sortedBlogs[0];
   console.log("logging something",slug(blog.tags[0]))
   return (
     <div className="w-full inline-block">
